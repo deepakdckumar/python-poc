@@ -1,0 +1,5 @@
+age = input("What is your age?\n")
+age = int(age)
+decades  = int(age / 10)
+years = int( age % 10)
+print("You are " + str(decades) + " decades and " + str(years) + " years old.")
